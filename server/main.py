@@ -1,6 +1,7 @@
 # coding: utf-8
 import sys
 import os
+import time
 
 # import websockets
 from geventwebsocket.handler import WebSocketHandler
@@ -25,7 +26,7 @@ def get_tasks():
 @app.route("/updated")
 def updated():
     """
-    Notify the client that an update is ready. Contacted by the client to
+    Notify the client that  an update is ready. Contacted by the client to
     'subscribe' to the notification service.
     """
     ws = request.environ.get('wsgi.websocket')

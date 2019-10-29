@@ -3,5 +3,5 @@ import { RealtimeComponent } from './rt.component';
 
 export default sandboxOf(RealtimeComponent)
   .add('Realtime Component', {
-    template: `<cm-about></cm-about>`
+    template: `<cm-realtime></cm-realtime>`
   });
