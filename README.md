@@ -5,10 +5,11 @@ Full-stack server and client **Proof of Concept** implementation for real-time c
 Usage
 ----
 ```
-$ # Terminal 1
+# Terminal 1
 $ pip3 install -r server/requirements.txt
 $ python3 server/main.py
-$ # Terminal 2
+
+# Terminal 2
 $ cd client
 $ npm install
 $ npm start
