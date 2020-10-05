@@ -17,7 +17,7 @@ $ npm start
 
 Inspect
 ----
-The server side is randomly going to open socket connection and send some data. You can inspect the data changes in real-time on (http://localhost:8080/realtime)[http://localhost:8080/realtime].
+The server side is randomly going to open socket connection and send some data. You can inspect the data changes in real-time on [http://localhost:8080/realtime](http://localhost:8080/realtime).
 
 License
 ----
